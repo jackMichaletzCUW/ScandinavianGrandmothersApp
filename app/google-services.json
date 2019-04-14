@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "125180339433",
+    "firebase_url": "https://scandinaviangrandmothersapp.firebaseio.com",
+    "project_id": "scandinaviangrandmothersapp",
+    "storage_bucket": "scandinaviangrandmothersapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125180339433:android:2002dea5d658121a",
+        "android_client_info": {
+          "package_name": "com.example.scandinaviangrandmothersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125180339433-6r1q0jp5mch7djccil397hqjepjod90o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3XhFR0aHcp2RMehqmlPprUen6XX9J0Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125180339433-6r1q0jp5mch7djccil397hqjepjod90o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

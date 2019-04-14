@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Soundboard">
+
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="settingsBtnPressed"
+        android:text="Account Settings..." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".33"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/airplane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="airplane" />
+
+            <Button
+                android:id="@+id/bloodbath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bloodbath" />
+
+            <Button
+                android:id="@+id/fatty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fatty" />
+
+            <Button
+                android:id="@+id/idont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I Don't" />
+
+            <Button
+                android:id="@+id/shutup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shut Up!" />
+
+            <Button
+                android:id="@+id/wrongwithme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wrong With Me" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/alrightso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alright, so" />
+
+            <Button
+                android:id="@+id/dualshield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dual Shield" />
+
+            <Button
+                android:id="@+id/gonbestupid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gon' Be Stupid" />
+
+            <Button
+                android:id="@+id/locklair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Locklair" />
+
+            <Button
+                android:id="@+id/someonedie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Someone Die" />
+
+            <Button
+                android:id="@+id/yarnandcricket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yarn and Cricket" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/aye"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aye" />
+
+            <Button
+                android:id="@+id/evillaugh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evil Laugh" />
+
+            <Button
+                android:id="@+id/goryscene"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gory Scene" />
+
+            <Button
+                android:id="@+id/programming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programming" />
+
+            <Button
+                android:id="@+id/windows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Windows" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

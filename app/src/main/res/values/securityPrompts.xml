@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prompts">
+        <item>What is your favorite pet\'s name?</item>
+        <item>What is your hometown?</item>
+        <item>What is your password?</item>
+        <item>What is your favorite movie?</item>
+        <item>Who is your favorite CS department professor?</item>
+        <item>What is mother\'s maiden name?</item>
+    </string-array>
+</resources>
